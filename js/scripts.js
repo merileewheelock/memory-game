@@ -1,22 +1,22 @@
 $(document).ready(function(){
 
 	var cards = [
-		'<img src="images/monsters-01.png">',
-		'<img src="images/monsters-02.png">',
-		'<img src="images/monsters-03.png">',
-		'<img src="images/monsters-04.png">',
-		'<img src="images/monsters-05.png">',
-		'<img src="images/monsters-06.png">',
-		'<img src="images/monsters-07.png">',
-		'<img src="images/monsters-08.png">',
-		'<img src="images/monsters-01.png">',
-		'<img src="images/monsters-02.png">',
-		'<img src="images/monsters-03.png">',
-		'<img src="images/monsters-04.png">',
-		'<img src="images/monsters-05.png">',
-		'<img src="images/monsters-06.png">',
-		'<img src="images/monsters-07.png">',
-		'<img src="images/monsters-08.png">'
+		'<img src="images/hp1.png">',
+		'<img src="images/hp2.png">',
+		'<img src="images/hp3.png">',
+		'<img src="images/hp4.png">',
+		'<img src="images/hp5.png">',
+		'<img src="images/hp6.png">',
+		'<img src="images/hp7.png">',
+		'<img src="images/hp8.png">',
+		'<img src="images/hp1.png">',
+		'<img src="images/hp2.png">',
+		'<img src="images/hp3.png">',
+		'<img src="images/hp4.png">',
+		'<img src="images/hp5.png">',
+		'<img src="images/hp6.png">',
+		'<img src="images/hp7.png">',
+		'<img src="images/hp8.png">'
 	];
 	
 	var copyCards = cards.slice();
@@ -116,7 +116,7 @@ $(document).ready(function(){
 				if (matchedCards.length == gridSize){
 					// Then every card has been matched. Game won!
 					// alert("You have won the game!");
-					winMessage = $('.win').html("<strong>You have won the game!</strong>");
+					winMessage = $('.win').html("<strong>Congratulations! You have passed your O.W.L.s!</strong>");
 				}
 			}else{
 				// They are not the same, nice try. Flip them back over.
@@ -140,7 +140,8 @@ $(document).ready(function(){
 		copyCards = cards.slice();
 		randomCards = [];
 		shuffleCards();
-		// $('.win').html('&nbsp');
+		// $('.mg-contents').html(memoryGameHTML);
+		$('.win').html('&nbsp');
 		$('.card-holder').removeClass('flip matched');
 	});
 
