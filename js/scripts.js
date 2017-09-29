@@ -123,7 +123,6 @@ $(document).ready(function(){
 				setTimeout(function(){
 					cardsUp.removeClass('flip');
 				}, 2000) // Wait 2 seconds to flip back over
-				
 			}
 		}
 
