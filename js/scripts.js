@@ -101,7 +101,7 @@ $(document).ready(function(){
 		// Set up an array called cardsUp that contains all elements with a class of .flip. That's how we know they are face up.
 		var cardsUp = $('.flip');
 		if(cardsUp.length >= 2){
-			// Two cards have a flip class (face up) or we wouldn't be here
+			// Two cards have a flip class (face up) or we wouldn't be here.
 			// Check to see if they are the same.
 			// cardsUp[0] is targeting card-holder. We need to target card-front, which is .children[0] (look at console.dir)
 			// the second children[0] tag is the img tag (need to grab the src attibute)
