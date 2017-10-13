@@ -1,22 +1,22 @@
 $(document).ready(function(){
 
 	var cards = [
-		'<img src="images/hp1.png">',
-		'<img src="images/hp2.png">',
-		'<img src="images/hp3.png">',
-		'<img src="images/hp4.png">',
-		'<img src="images/hp5.png">',
-		'<img src="images/hp6.png">',
-		'<img src="images/hp7.png">',
-		'<img src="images/hp8.png">',
-		'<img src="images/hp1.png">',
-		'<img src="images/hp2.png">',
-		'<img src="images/hp3.png">',
-		'<img src="images/hp4.png">',
-		'<img src="images/hp5.png">',
-		'<img src="images/hp6.png">',
-		'<img src="images/hp7.png">',
-		'<img src="images/hp8.png">'
+		'<img src="images/hp1.png" />',
+		'<img src="images/hp2.png" />',
+		'<img src="images/hp3.png" />',
+		'<img src="images/hp4.png" />',
+		'<img src="images/hp5.png" />',
+		'<img src="images/hp6.png" />',
+		'<img src="images/hp7.png" />',
+		'<img src="images/hp8.png" />',
+		'<img src="images/hp1.png" />',
+		'<img src="images/hp2.png" />',
+		'<img src="images/hp3.png" />',
+		'<img src="images/hp4.png" />',
+		'<img src="images/hp5.png" />',
+		'<img src="images/hp6.png" />',
+		'<img src="images/hp7.png" />',
+		'<img src="images/hp8.png" />'
 	];
 	
 	var copyCards = cards.slice();
