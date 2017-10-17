@@ -47,7 +47,7 @@ img{
 }
 
 .card-back{
-	background: url('../images/hp-bg.png') no-repeat; /* In CSS folder, so need to go up to get to images folder */
+	background: url('../images/hp-bg2.png') no-repeat; /* In CSS folder, so need to go up to get to images folder */
 	background-size: cover;
 	height: 200px;
 	min-width: 200px;
